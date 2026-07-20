@@ -4,8 +4,8 @@
 #  Repositorios, limpieza, estructura de directorios
 # ═══════════════════════════════════════════════
 
-source "$HOME/scripts/lib/colors.sh"
-source "$HOME/scripts/lib/detect.sh"
+source "$HOME/termuxforge/scripts/lib/colors.sh"
+source "$HOME/termuxforge/scripts/lib/detect.sh"
 
 header "Base Termux — Instalación"
 
