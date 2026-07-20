@@ -5,8 +5,9 @@
 #  Se ejecuta automáticamente al completar la base
 # ═══════════════════════════════════════════════
 
-source "$HOME/scripts/lib/colors.sh"
-source "$HOME/scripts/lib/detect.sh"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+source "$SCRIPT_DIR/lib/colors.sh"
+source "$SCRIPT_DIR/lib/detect.sh"
 
 header "Generando Scripts de Control"
 
