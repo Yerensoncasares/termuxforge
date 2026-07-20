@@ -15,12 +15,11 @@
 
 set -u
 
-# — Cargar librerías —
-SCRIPT_DIR="$HOME/scripts"
+# — Detectar ubicación real del script —
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/lib/colors.sh"
 source "$SCRIPT_DIR/lib/detect.sh"
 config_init
-
 # — Banner —
 show_banner() {
     clear
